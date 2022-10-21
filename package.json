@@ -32,6 +32,7 @@
     "redux-devtools-extension": "latest",
     "redux-thunk": "^2.3.0",
     "styled-components": "^4.2.0",
+    "ts-node": "^10.9.1",
     "typescript": "3.4.5"
   },
   "scripts": {

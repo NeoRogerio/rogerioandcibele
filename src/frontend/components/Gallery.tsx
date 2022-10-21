@@ -82,61 +82,69 @@ class Gallery extends Component<Props, State> {
           }
         }}
       >
-        <div data-src="assets/images/lucia1.jpg">
+        <div data-src="assets/images/rogeriocibele1.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Lucia e Davor</Title>
-              <SubTitle>18 Ottobre 2019</SubTitle>
+              <Title>Rogério e Cibele</Title>
+              <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
         </div>
 
-        {/*        <div data-src="assets/images/lucia2.jpg">
+        <div data-src="assets/images/rogeriocibele2.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"left"}>
-              <Title>Lucia e Davor</Title>
-              <SubTitle>18 Ottobre 2019</SubTitle>
-            </Content>
-          </Parallax>
-        </div>*/}
-        <div data-src="assets/images/lucia3.jpg">
-          <Parallax className="section" y={[-20, 30]} tagOuter="div">
-            <Content align={"center"}>
-              <Title>Lucia e Davor</Title>
-              <SubTitle>18 Ottobre 2019</SubTitle>
+              <Title>Rogério e Cibele</Title>
+              <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
         </div>
-        <div data-src="assets/images/lucia4.jpg">
+        <div data-src="assets/images/rogeriocibele3.png">
+          <Parallax className="section" y={[-20, 30]} tagOuter="div">
+            <Content align={"center"}>
+              <Title>Rogério e Cibele</Title>
+              <SubTitle>9 de Dezembro de 2022</SubTitle>
+            </Content>
+          </Parallax>
+        </div>
+        <div data-src="assets/images/rogeriocibele4.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Lucia e Davor</Title>
-              <SubTitle>18 Ottobre 2019</SubTitle>
+              <Title>Rogério e Cibele</Title>
+              <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
         </div>
 
-        <div data-src="assets/images/lucia5.jpg">
+        <div data-src="assets/images/rogeriocibele5.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Lucia e Davor</Title>
-              <SubTitle>18 Ottobre 2019</SubTitle>
+              <Title>Rogério e Cibele</Title>
+              <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
         </div>
-        <div data-src="assets/images/lucia6.jpg">
+        <div data-src="assets/images/rogeriocibele6.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Lucia e Davor</Title>
-              <SubTitle>18 Ottobre 2019</SubTitle>
+              <Title>Rogério e Cibele</Title>
+              <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
         </div>
-        <div data-src="assets/images/lucia9.jpg">
+        <div data-src="assets/images/rogeriocibele7.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Lucia e Davor</Title>
-              <SubTitle>18 Ottobre 2019</SubTitle>
+              <Title>Rogério e Cibele</Title>
+              <SubTitle>9 de Dezembro de 2022</SubTitle>
+            </Content>
+          </Parallax>
+        </div>
+        <div data-src="assets/images/rogeriocibele8.png">
+          <Parallax className="section" y={[-20, 30]} tagOuter="div">
+            <Content align={"right"}>
+              <Title>Rogério e Cibele</Title>
+              <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
         </div>

@@ -6,5 +6,5 @@ export const getDomain = () => {
 };
 
 const isProduction = () => {
-  return process.env.NODE_ENV === "production";
+  return process.env.NODE_ENV === "development";
 };

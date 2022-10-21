@@ -99,7 +99,7 @@ const MobileNavigation = ({
                 showMobileNavigation();
               }}
             >
-              Lista Nozze
+              Lista de Presentes
             </Nav>
           </Scrollchor>{" "}
           <Scrollchor

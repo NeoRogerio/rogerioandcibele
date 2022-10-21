@@ -39,13 +39,11 @@ class Map extends Component {
             }}
             defaultZoom={14}
             defaultCenter={{
-              lat: 46.00629,
-              lng: 8.96463
+              lat: -1.3064117,
+              lng: -47.9312966
             }}
           >
-            <Image lat={46.001220} lng={8.978060} source={"municipio.jpg"} />
-            <Image lat={46.00507} lng={8.95645} source={"parcocian.jpeg"} />
-            <Image lat={46.00629} lng={8.96463} source={"villa.jpg"} />
+            <Image lat={-1.3064117} lng={-47.9312966} source={"emporio.png"} />
           </GoogleMapReact>
         </div>
       </Fade>

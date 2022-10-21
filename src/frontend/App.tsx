@@ -86,18 +86,18 @@ class App extends Component<{}, State> {
         <SplitSection
           color={__COLORS.TERTRIARY}
           background={__COLORS.PRIMARY}
-          text={"18 Ottobre 2019"}
+          text={"9 de Dezembro de 2022"}
           iconName={IconTypes.WEDDING_DAY}
         />
         <Fade left>
-          <Section id="programma" title={"Programma"}>
+          <Section id="programma" title={"Programação"}>
             <Programma />
           </Section>
         </Fade>
         <SplitSection
           background={__COLORS.TERTRIARY}
           color={__COLORS.WHITE}
-          text={"Cosa ci piacerebbe"}
+          text={"O que gostaríamos"}
           iconName={IconTypes.WEDDING_LIST}
         />
         <MediaQuery minWidth={DESKTOP_WIDTH}>
@@ -105,7 +105,7 @@ class App extends Component<{}, State> {
             if (matches) {
               return (
                 <Fade right>
-                  <Section id="listanozze" title={"Lista Nozze"}>
+                  <Section id="listanozze" title={"Lista de Presentes"}>
                     <ListaNozze
                       onSelectPackage={(selectedPackage: Package) => {
                         this.updatePackage(selectedPackage);
@@ -116,7 +116,7 @@ class App extends Component<{}, State> {
               );
             } else {
               return (
-                <Section id="listanozze" title={"Lista Nozze"}>
+                <Section id="listanozze" title={"Lista de Presentes"}>
                   <ListaNozze
                     onSelectPackage={(selectedPackage: Package) => {
                       this.updatePackage(selectedPackage);
@@ -130,7 +130,7 @@ class App extends Component<{}, State> {
         <SplitSection
           background={__COLORS.SECONDARY}
           color={__COLORS.WHITE}
-          text={"Chi vuole ballare?"}
+          text={"Quem quer dançar?"}
           iconName={IconTypes.MUSICA}
           iconWidth={190}
         />

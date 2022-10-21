@@ -15,10 +15,10 @@ export const MainTheme: CSSProperties & Props = {
 
 // Colors Palette https://colorhunt.co/
 export enum __COLORS {
-  PRIMARY = "#ffb4ac",
-  SECONDARY = "#679186",
+  PRIMARY = "#2d82b5",
+  SECONDARY = "#88cdf6",
   TERTRIARY = "#264e70",
-  FOURTH = "#ffebd3",
+  FOURTH = "#bee6ff",
   WHITE = "#fff",
   ERROR = "#ff5858",
   SUCCESS = "#009975",
@@ -139,7 +139,7 @@ export const GlobalStyle = createGlobalStyle<{
 }
 .rangeslider .rangeslider__handle {
   background: #fff;
-  border: 1px solid ${__COLORS.PRIMARY}
+  border: 1px solid ${__COLORS.PRIMARY};
   cursor: pointer;
   display: inline-block;
   position: absolute;

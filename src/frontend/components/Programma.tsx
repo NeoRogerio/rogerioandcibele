@@ -90,11 +90,11 @@ export const Programma = () => {
       </LuciaDavorMessage>
       <Container>
         <TimeLineContainer>
-          <SubTitle>Svolgimento</SubTitle>
+          <SubTitle>Intinerário</SubTitle>
           <Itinerario />
         </TimeLineContainer>
         <MapContainer>
-          <SubTitle>Dove?</SubTitle>
+          <SubTitle>Onde?</SubTitle>
           <Map />
         </MapContainer>
       </Container>

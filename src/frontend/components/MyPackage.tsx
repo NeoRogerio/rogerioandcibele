@@ -120,6 +120,7 @@ type Props = {
 export const MyPackage = ({ myPackage, onClick }: Props) => {
   return (
     <Card soldout={myPackage.soldout}>
+      {console.info(myPackage)}
       <Relative>
         <Image
           src={myPackage.thumbnail}
@@ -132,7 +133,7 @@ export const MyPackage = ({ myPackage, onClick }: Props) => {
       </Relative>
       <InnerCard soldout={myPackage.soldout}>
         {myPackage.soldout ? (
-          <Soldout>Il pachetto è soldout!</Soldout>
+          <Soldout>Este presente já foi escolhido!</Soldout>
         ) : (
           <MyIcon
             name={IconTypes.GIFT}
@@ -148,13 +149,13 @@ export const MyPackage = ({ myPackage, onClick }: Props) => {
             <Label>Totale Regalato</Label>
             <Value>
               {myPackage.totalPaid === 0
-                ? "0 CHF"
-                : myPackage.totalPaid + " CHF"}
+                ? "R$ 0"
+                : "R$ " + myPackage.totalPaid}
             </Value>
           </LabelContainer>
           <LabelContainer>
-            <Label>Prezzo Totale</Label>
-            <Value>{myPackage.totalPrice} CHF</Value>
+            <Label>Preço Total</Label>
+            <Value>R$ {myPackage.totalPrice}</Value>
           </LabelContainer>
 
           <LabelContainer>
@@ -190,7 +191,7 @@ export const MyPackage = ({ myPackage, onClick }: Props) => {
               onClick(myPackage);
             }}
           >
-            Contribuisci al regalo!
+            Presentear!
           </Button>
         </ButtonContainer>
       </OuterCard>

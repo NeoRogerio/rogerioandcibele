@@ -15,39 +15,19 @@ export type Itinerary = {
 
 let data: Itinerary[] = [
   {
-    startTime: "14:30",
-    description: "Ritrovo a Villa Castagnola",
-    picture: "villa.jpg",
+    startTime: "17:00",
+    description: "Cerimônia",
+    picture: "emporio.png",
     address:
-      "https://www.google.com/maps/place/Grand+Hotel+Villa+Castagnola/@46.0065052,8.9696358,15z/data=!4m8!3m7!1s0x0:0xc5ac377e40a188c6!5m2!4m1!1i2!8m2!3d46.0065052!4d8.9696358"
+      "https://www.google.com.br/maps/place/Emp%C3%B3rio+Da+Mata+Castanhal/@-1.3087489,-47.931913,16.25z/data=!4m5!3m4!1s0x92a5a9e15abf5845:0x4c8cb3be5163278f!8m2!3d-1.3061715!4d-47.9312585"
   },
   {
-    startTime: "15:00",
-    description: "Partenza per l’Ex municipio di Castagnola",
-    picture: "municipio.jpg",
+    startTime: "19:00",
+    description: "Recepção",
+    picture: "emporio.png",
     address:
-      "https://www.google.com/maps/place/Ex+Municipio+Castagnola/@46.0012546,8.9758981,17z/data=!3m1!4b1!4m5!3m4!1s0x47842dfd22077e1d:0xcc260d37c20b18dd!8m2!3d46.0012509!4d8.9780868"
+      "https://www.google.com.br/maps/place/Emp%C3%B3rio+Da+Mata+Castanhal/@-1.3087489,-47.931913,16.25z/data=!4m5!3m4!1s0x92a5a9e15abf5845:0x4c8cb3be5163278f!8m2!3d-1.3061715!4d-47.9312585"
   },
-  {
-    startTime: "15:30",
-    description: "Inizio della cerimonia civile",
-    picture: "municipio.jpg",
-    address: ""
-  },
-  {
-    startTime: "16:30",
-    description:
-      "Trasferimento per Villa Castagnola, incluso giro per la città di Lugano",
-    picture: "parcocian.jpeg",
-    address:
-      "https://www.google.com/maps/place/Parco+Ciani/@46.0052122,8.9558402,17z/data=!3m1!4b1!4m5!3m4!1s0x47842d8c95d06a1d:0xa3e1c8073068b40d!8m2!3d46.0052085!4d8.9580289"
-  },
-  {
-    startTime: "> 17:00",
-    description: "Aperitivo e cena presso Villa Castagnola",
-    picture: "villa.jpg",
-    address: ""
-  }
 ];
 const Container = styled.div`
   border-radius: 6px;
@@ -151,7 +131,7 @@ const Item = ({ itinerary, index }: Props) => {
               style={{ width: 30, height: 20 }}
             />
             <Get href={itinerary.address} target="_blank">
-              Guarda l'indirizzo esatto
+              Veja o endereço exato
             </Get>
           </Directions>
         )}

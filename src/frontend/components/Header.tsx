@@ -77,21 +77,21 @@ export const Header = ({
           to="programma"
           style={{ color: "inherit", textDecoration: "none" }}
         >
-          <NavLink>Programma</NavLink>
+          <NavLink>Programação</NavLink>
         </Scrollchor>
         <Scrollchor
           to="listanozze"
           style={{ color: "inherit", textDecoration: "none" }}
         >
-          <NavLink>Lista nozze</NavLink>
+          <NavLink>Lista de Presentes</NavLink>
         </Scrollchor>
         <Scrollchor
           to="musica"
           style={{ color: "inherit", textDecoration: "none" }}
         >
-          <NavLink>Musica</NavLink>
+          <NavLink>Música</NavLink>
         </Scrollchor>
-        <NavLink>Gallery (coming soon)</NavLink>
+        <NavLink>Galeria (coming soon)</NavLink>
       </Desktop>
       <Mobile>
         <div
