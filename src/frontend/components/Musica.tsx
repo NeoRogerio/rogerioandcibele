@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { LuciaDavorMessage } from "../views/LuciaDavorMessage";
+import { CibeleRogerioMessage } from "../views/LuciaDavorMessage";
 import MyImage, { AssetType } from "../views/Figure";
 
 const Container = styled.div``;
@@ -41,12 +41,9 @@ font-size: 14px;
 export const Musica = () => {
   return (
     <Container>
-      <LuciaDavorMessage>
-        Abbiamo creato una Playlist su Spotify in modo da poter ascoltare brani
-        e generi durante il ricevimento proposti anche da voi! Clicca sul
-        bottone qui sotto e aggiungete tutte le canzoni che volete sulla nostra
-        Playlist (è necessario avere un account Spotify).
-      </LuciaDavorMessage>
+      <CibeleRogerioMessage>
+      Criamos uma Playlist no Spotify para você ouvir músicas e gêneros durante a recepção proposta por você também! Clique no botão abaixo e adicione todas as músicas que deseja à nossa Playlist (você precisa ter uma conta no Spotify).
+      </CibeleRogerioMessage>
       <ButtonContainer>
         <Link
           href="https://open.spotify.com/user/lucia.pelloni/playlist/0NuE8Uy6RBoTAQDlabL0bH"

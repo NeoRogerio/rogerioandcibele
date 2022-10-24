@@ -13,7 +13,7 @@ import {
   MEDIUM_DEVICES,
   SMALL_DEVICES
 } from "../layout/Mobile";
-import { LuciaDavorMessage } from "../views/LuciaDavorMessage";
+import { CibeleRogerioMessage } from "../views/LuciaDavorMessage";
 
 const Container = styled.div`
   display: flex;
@@ -75,7 +75,7 @@ class ListaNozze extends React.Component<Props, {}> {
     return (
       <Container>
         {error && <h3>Something went wrong.</h3>}
-        <LuciaDavorMessage>
+        <CibeleRogerioMessage>
           Il regalo più bello per noi è quello di poter festeggiare il nostro
           matrimonio circondati dall’affetto di tutte le persone che ci stanno
           più a cuore! Tuttavia, nel caso aveste il piacere di farci un regalo
@@ -84,7 +84,7 @@ class ListaNozze extends React.Component<Props, {}> {
           trovasse nella lista, potete tranquillamente versare l’importo al
           nostro conto con la descrizione del regalo o accompagnarci
           personalmente ad acquistarlo!
-        </LuciaDavorMessage>
+        </CibeleRogerioMessage>
 
         {packages.length > 0 && (
           <Packages>

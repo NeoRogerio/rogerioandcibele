@@ -85,7 +85,7 @@ class Gallery extends Component<Props, State> {
         <div data-src="assets/images/rogeriocibele1.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Rogério e Cibele</Title>
+              <Title>Cibele e Rogério</Title>
               <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
@@ -94,7 +94,7 @@ class Gallery extends Component<Props, State> {
         <div data-src="assets/images/rogeriocibele2.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"left"}>
-              <Title>Rogério e Cibele</Title>
+              <Title>Cibele e Rogério</Title>
               <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
@@ -102,7 +102,7 @@ class Gallery extends Component<Props, State> {
         <div data-src="assets/images/rogeriocibele3.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"center"}>
-              <Title>Rogério e Cibele</Title>
+              <Title>Cibele e Rogério</Title>
               <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
@@ -110,7 +110,7 @@ class Gallery extends Component<Props, State> {
         <div data-src="assets/images/rogeriocibele4.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Rogério e Cibele</Title>
+              <Title>Cibele e Rogério</Title>
               <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
@@ -119,7 +119,7 @@ class Gallery extends Component<Props, State> {
         <div data-src="assets/images/rogeriocibele5.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Rogério e Cibele</Title>
+              <Title>Cibele e Rogério</Title>
               <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
@@ -127,7 +127,7 @@ class Gallery extends Component<Props, State> {
         <div data-src="assets/images/rogeriocibele6.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Rogério e Cibele</Title>
+              <Title>Cibele e Rogério</Title>
               <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
@@ -135,7 +135,7 @@ class Gallery extends Component<Props, State> {
         <div data-src="assets/images/rogeriocibele7.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Rogério e Cibele</Title>
+              <Title>Cibele e Rogério</Title>
               <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>
@@ -143,7 +143,7 @@ class Gallery extends Component<Props, State> {
         <div data-src="assets/images/rogeriocibele8.png">
           <Parallax className="section" y={[-20, 30]} tagOuter="div">
             <Content align={"right"}>
-              <Title>Rogério e Cibele</Title>
+              <Title>Cibele e Rogério</Title>
               <SubTitle>9 de Dezembro de 2022</SubTitle>
             </Content>
           </Parallax>

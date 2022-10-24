@@ -14,6 +14,7 @@
     "color": "^3.1.1",
     "google-map-react": "latest",
     "is-email": "^1.0.0",
+    "phosphor-react": "^1.4.1",
     "react": "^16.8.6",
     "react-awesome-slider": "latest",
     "react-dom": "^16.8.6",

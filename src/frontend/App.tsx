@@ -85,7 +85,7 @@ class App extends Component<{}, State> {
         <MyHome id="home" />
         <SplitSection
           color={__COLORS.TERTRIARY}
-          background={__COLORS.PRIMARY}
+          background={__COLORS.SECONDARY}
           text={"9 de Dezembro de 2022"}
           iconName={IconTypes.WEDDING_DAY}
         />

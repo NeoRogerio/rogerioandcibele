@@ -5,9 +5,11 @@ import Map from "./Map";
 import { EXTRA_SMALL_DEVICES } from "../layout/Mobile";
 import MyImage, { AssetType } from "../views/Figure";
 import { Itinerario } from "./Itinerario";
-import { LuciaDavorMessage } from "../views/LuciaDavorMessage";
+import { CibeleRogerioMessage } from "../views/LuciaDavorMessage";
+import { CalendarBlank, CheckSquare } from "phosphor-react";
 // @ts-ignore
 const Parent = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
 `;
@@ -37,7 +39,13 @@ const SubTitle = styled.h3`
   font-size: calc(0.4rem + 2vmin);
 `;
 
-const Destination = styled.div``;
+const Destination = styled.div`
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+`;
 
 const Title = styled.h3`
   font-weight: bold;
@@ -57,37 +65,56 @@ const Li = styled.li`
     `};
 `;
 
+const Button = styled.div`
+display: flex;
+  padding: 11px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 100;
+  color: ${__COLORS.WHITE};
+  background: ${__COLORS.TERTRIARY};
+  align-items: center;
+  gap: 0.5rem;
+`;
+
+const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+  align-items: center;
+`;
+
+const Link = styled.a``;
+
 type Props = {};
 
 export const Programma = () => {
   return (
     <Parent>
-      <LuciaDavorMessage>
+      <CibeleRogerioMessage>
         <Destination>
-          <Title>Come raggiungerci?</Title>
-          <Ul>
-            <Li>
-              <strong>Con i mezzi pubblici</strong>
-            </Li>
-            Per arrivare a Villa Castagnola, prendete{" "}
-            <a
-              style={{ color: __COLORS.TERTRIARY, fontWeight: "bold" }}
-              href="http://www.tplsa.ch/15/2/newa-linee-orari-linea-2.html"
-              target="_blank"
+          <ButtonContainer>
+            <Button
+              onClick={()=> window.open("https://forms.gle/KGtTtrTxcBhN124M8", "_blank")}
             >
-              il Bus numero 2{" "}
-            </a>
-            fino alla fermata Cassarate, Monte Bré.
-            <Li>
-              <strong>Con l’auto</strong>
-            </Li>
-            Vi consigliamo di posteggiare la vostra auto presso Villa
-            Castagnola. In seguito, da e per l’Ex Municipio, abbiamo organizzato
-            per voi i trasferimenti, per cui non avrete più bisogno della
-            macchina.
-          </Ul>
+              <CheckSquare />
+              <b>
+                Confirme sua presença!
+              </b>
+            </Button>
+          </ButtonContainer>
+          <ButtonContainer>
+            <Button
+              onClick={()=> window.open("https://forms.gle/KGtTtrTxcBhN124M8", "_blank")}
+            >
+              <CalendarBlank />
+              <b>
+                Salve na sua agenda!
+              </b>
+            </Button>
+          </ButtonContainer>
         </Destination>
-      </LuciaDavorMessage>
+      </CibeleRogerioMessage>
       <Container>
         <TimeLineContainer>
           <SubTitle>Intinerário</SubTitle>

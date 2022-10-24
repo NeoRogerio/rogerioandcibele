@@ -35,10 +35,10 @@ const Span = styled.div`
 type Props = {
     children: ReactNode;
 };
-export const LuciaDavorMessage = ({ children }: Props) => {
+export const CibeleRogerioMessage = ({ children }: Props) => {
   return (
     <SpanContainer>
-      <Avatar src="assets/images/avatar.jpg" />
+      <Avatar src="assets/images/avatar.png" />
       <Span>{children}</Span>
     </SpanContainer>
   );
