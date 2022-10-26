@@ -76,14 +76,7 @@ class ListaNozze extends React.Component<Props, {}> {
       <Container>
         {error && <h3>Something went wrong.</h3>}
         <CibeleRogerioMessage>
-          Il regalo più bello per noi è quello di poter festeggiare il nostro
-          matrimonio circondati dall’affetto di tutte le persone che ci stanno
-          più a cuore! Tuttavia, nel caso aveste il piacere di farci un regalo
-          di nozze, qui sotto troverete alcune proposte per contribuire alla
-          nostra luna di miele. Qualora aveste un’idea per un regalo che non si
-          trovasse nella lista, potete tranquillamente versare l’importo al
-          nostro conto con la descrizione del regalo o accompagnarci
-          personalmente ad acquistarlo!
+        O melhor presente para nós é poder celebrar nosso casamento cercado do carinho de todas as pessoas que mais gostamos! No entanto, caso você tenha o prazer de nos dar um presente de casamento, abaixo você encontrará algumas propostas para contribuir com nossa lua de mel.
         </CibeleRogerioMessage>
 
         {packages.length > 0 && (

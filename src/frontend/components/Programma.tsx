@@ -105,7 +105,7 @@ export const Programma = () => {
           </ButtonContainer>
           <ButtonContainer>
             <Button
-              onClick={()=> window.open("https://forms.gle/KGtTtrTxcBhN124M8", "_blank")}
+              onClick={()=> window.open("https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWE2cmJwOTBmN2g5MThkZDZwa2lzNHYxYnUgbmVvcm9nZXJpb0Bt&tmsrc=neorogerio%40gmail.com", "_blank")}
             >
               <CalendarBlank />
               <b>
