@@ -14,6 +14,7 @@ import {
   SMALL_DEVICES
 } from "../layout/Mobile";
 import { CibeleRogerioMessage } from "../views/LuciaDavorMessage";
+import listaPresente from "../listaPresentes.json"
 
 const Container = styled.div`
   display: flex;
@@ -41,13 +42,10 @@ const Packages = styled.div`
 
 export type Package = {
   _id: string;
-  title: string;
   thumbnail: string;
+  title: string;
   totalPrice: number; // prezzo totale del pacchetto
   contributors: Contributor[];
-  totalPaid: number;
-  rest: number;
-  median: number;
   soldout: boolean;
 };
 
@@ -79,9 +77,9 @@ class ListaNozze extends React.Component<Props, {}> {
         O melhor presente para nós é poder celebrar nosso casamento cercado do carinho de todas as pessoas que mais gostamos! No entanto, caso você tenha o prazer de nos dar um presente de casamento, abaixo você encontrará algumas propostas para contribuir com nossa lua de mel.
         </CibeleRogerioMessage>
 
-        {packages.length > 0 && (
+        {listaPresente.length > 0 && (
           <Packages>
-            {packages.map((p: Package) => {
+            {listaPresente.map((p: Package) => {
               return (
                 <MyPackage
                   key={p._id}

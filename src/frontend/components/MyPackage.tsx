@@ -123,7 +123,7 @@ export const MyPackage = ({ myPackage, onClick }: Props) => {
       {console.info(myPackage)}
       <Relative>
         <Image
-          src={myPackage.thumbnail}
+          src={"assets/images/" + myPackage.thumbnail}
           style={{
             width: "100%",
             height: 235,
@@ -146,44 +146,15 @@ export const MyPackage = ({ myPackage, onClick }: Props) => {
       <OuterCard soldout={myPackage.soldout}>
         <Labels>
           <LabelContainer>
-            <Label>Totale Regalato</Label>
-            <Value>
-              {myPackage.totalPaid === 0
-                ? "R$ 0"
-                : "R$ " + myPackage.totalPaid}
-            </Value>
-          </LabelContainer>
-          <LabelContainer>
-            <Label>Preço Total</Label>
+            <Label>Preço</Label>
             <Value>R$ {myPackage.totalPrice}</Value>
-          </LabelContainer>
-
-          <LabelContainer>
-            <Label>Partecipanti</Label>
-            {myPackage.contributors.length === 0 ? (
-              <Value>-</Value>
-            ) : (
-              <Value>
-                {myPackage.contributors.map((c: Contributor, i: number) => {
-                  const color = __COLORS_ARRAY[i % __COLORS_ARRAY.length];
-                  return (
-                    <MyIcon
-                      key={i}
-                      name={IconTypes.USER}
-                      color={color}
-                      style={{ width: 18 }}
-                    />
-                  );
-                })}
-              </Value>
-            )}
           </LabelContainer>
         </Labels>
         <ProgressBar
           soldout={myPackage.soldout}
-          paid={myPackage.totalPaid}
+          paid={0}
           total={myPackage.totalPrice}
-          progress={(myPackage.totalPaid / myPackage.totalPrice) * 100}
+          progress={(0 / myPackage.totalPrice) * 100}
         />
         <ButtonContainer>
           <Button

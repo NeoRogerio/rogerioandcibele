@@ -290,7 +290,7 @@ class Modal extends Component<Props, State> {
       this.props.selectedPackage !== prevProps.selectedPackage
     ) {
       this.resetModal();
-      this.setState({ contribution: this.props.selectedPackage.median });
+      this.setState({ contribution: 0 });
     }
   }
 
@@ -342,13 +342,12 @@ class Modal extends Component<Props, State> {
           {this.props.selectedPackage !== null ? (
             <>
               <Header>
-                <Image src={this.props.selectedPackage.thumbnail} />
+                <Image src={"assets/images/" + this.props.selectedPackage.thumbnail} />
                 <Title>
                   {this.state.isContributionCompleted
                     ? "Hai regalato"
-                    : "Regala"}{" "}
-                  <strong>{this.props.selectedPackage.title}</strong> a Lucia e
-                  Davor!
+                    : "Nos presenteie com "}
+                  <strong>{this.props.selectedPackage.title}</strong>
                 </Title>
                 <Close>
                   <CloseIconContainer
@@ -399,57 +398,28 @@ class Modal extends Component<Props, State> {
                 ) : (
                   <>
                     <Paragraph>
-                      Come funziona? È davvero semplice: specificate il vostro
-                      indirizzo email che vi servirà da conferma, indicate
-                      l'importo che desiderate regalare a Davor e Lucia e se
-                      volete potete anche aggiungere una messaggio per loro!
-                      Quando avete fatto, cliccate il bottone "Contribuisci al
-                      regalo" :) Davor e Lucia riceveranno una email con il
-                      vostro regalo e il vostro messaggio! I vostri dati non
-                      verranno salvati da nessun mostro marino informatico.
-                      Tutto è sicuro :)
+                      Como funciona? Use o QR Code abaixo para fazer o pagamento via Pix. Ou se preferir pagar com cartão, clique no botão abaixo do QR Code.
                     </Paragraph>
                     <Row>
-                      <Label>Email</Label>
-                      <Input
-                        emailError={this.state.emailError !== null}
-                        placeholder="Inserisci il tuo indirizzo Email qui.."
-                        type="email"
-                        value={this.state.email}
-                        onChange={(e: any) => {
-                          if (this.state.emailError) {
-                            this.setState({ emailError: null });
-                          }
-                          this.setState({ email: e.target.value });
+                      <img
+                        src={"assets/images/qrCode.png"}
+                        style={{
+                          width: 235,
+                          height: 235,
+                          alignSelf: 'center'
                         }}
                       />
-                      {this.state.emailError && (
-                        <Error>{this.state.emailError}</Error>
-                      )}
                     </Row>
 
                     <Row>
-                      <Label>Messaggio</Label>
+                      <Label>Mensagem</Label>
                       <TextArea
                         value={this.state.message}
-                        placeholder="Inserisci il tuo messaggio qui.."
+                        placeholder="Deixe sua mensagem aqui.."
                         onChange={(e: any) => {
                           this.setState({ message: e.target.value });
                         }}
                       />
-                    </Row>
-                    <Row>
-                      <Label>Importo da regalare</Label>
-                      <SliderContainer>
-                        <MySlider
-                          initialValue={this.props.selectedPackage.median}
-                          setValue={(v: number) => {
-                            this.setState({ contribution: v });
-                          }}
-                          min={0}
-                          max={this.props.selectedPackage.rest}
-                        />
-                      </SliderContainer>
                     </Row>
                   </>
                 )}
@@ -480,11 +450,7 @@ class Modal extends Component<Props, State> {
                       this.sendContribution();
                     }}
                   >
-                    Regala a Lucia e Davor{" "}
-                    <strong style={{ margin: "0 4px" }}>
-                      {this.state.contribution}
-                    </strong>{" "}
-                    CHF{" "}
+                    Presentear Cibele e Rogério{" "}
                     {this.state.loading && (
                       <MyLottieManager
                         animationData={buttonLoading}

@@ -1,0 +1,418 @@
+[
+    {
+        "_id": "cafeteira-italiana",
+        "thumbnail": "cafeteira-italiana.jpeg",
+        "title": "Cafeteira italiana",
+        "totalPrice": 115.99,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-assadeiras-aluminio",
+        "thumbnail": "conjunto-assadeiras-aluminio.jpeg",
+        "title": "Conjunto de assadeiras alumínio-inox",
+        "totalPrice": 165.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-frigideiras",
+        "thumbnail": "conjunto-frigideiras.jpg",
+        "title": "Conjunto de Frigideiras",
+        "totalPrice": 189.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-panelas-aluminio",
+        "thumbnail": "conjunto-panelas-aluminio.jpg",
+        "title": "Conjunto de panelas alumínio-inox",
+        "totalPrice": 169.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "forma-fundo-removivel",
+        "thumbnail": "forma-fundo-removivel.jpeg",
+        "title": "Forma com fundo removível",
+        "totalPrice": 81.99,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "pipoqueira",
+        "thumbnail": "pipoqueira.jpg",
+        "title": "Pipoqueira",
+        "totalPrice": 209.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "carrinho-feira",
+        "thumbnail": "carrinho-feira.jpeg",
+        "title": "Carrinho de feira",
+        "totalPrice": 89.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "fruteira-rodinhas",
+        "thumbnail": "fruteira-rodinhas.jpeg",
+        "title": "Fruteira de rodinhas",
+        "totalPrice": 169.99,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "faqueiro-inox",
+        "thumbnail": "faqueiro-inox.jpeg",
+        "title": "Faqueiro inox especial",
+        "totalPrice": 211.65,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-facas-cozinha",
+        "thumbnail": "conjunto-facas-cozinha.jpg",
+        "title": "Conjunto de facas para cozinha",
+        "totalPrice": 114.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-churrasco",
+        "thumbnail": "conjunto-churrasco.jpeg",
+        "title": "Conjunto para Churrasco",
+        "totalPrice": 222.10,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-utensilios-cozinha",
+        "thumbnail": "conjunto-utensilios-cozinha.jpeg",
+        "title": "Conjunto de utensílios para cozinha",
+        "totalPrice": 154.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "bomboniere",
+        "thumbnail": "bomboniere.jpeg",
+        "title": "Bomboniere",
+        "totalPrice": 69.99,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-mantimento",
+        "thumbnail": "conjunto-mantimento.jpeg",
+        "title": "Conjunto para mantimento-condimento",
+        "totalPrice": 99.00,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-tigelas",
+        "thumbnail": "conjunto-tigelas.jpeg",
+        "title": "Conjunto de tijelas",
+        "totalPrice": 90.40,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "saladeira",
+        "thumbnail": "saladeira.jpeg",
+        "title": "Saladeira",
+        "totalPrice": 82.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "aparelho-jantar-cha",
+        "thumbnail": "aparelho-jantar-cha.jpg",
+        "title": "Aparelho de jantar-chá",
+        "totalPrice": 199.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-xicaras-cafe",
+        "thumbnail": "conjunto-xicaras-cafe.jpeg",
+        "title": "Conjunto de xícaras para café",
+        "totalPrice": 116.55,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-copos.jpg",
+        "thumbnail": "conjunto-copos.jpg",
+        "title": "Conjunto de copos",
+        "totalPrice": 102.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "jarra",
+        "thumbnail": "jarra.jpeg",
+        "title": "Jarra",
+        "totalPrice": 93.02,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "suqueira",
+        "thumbnail": "suqueira.jpeg",
+        "title": "Suqueira",
+        "totalPrice": 166.86,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "bule-cafe",
+        "thumbnail": "bule-cafe.jpg",
+        "title": "Bule para café",
+        "totalPrice": 89.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "bule-garrafa-termica",
+        "thumbnail": "garrafa-termica.jpeg",
+        "title": "Garrafa Térmica",
+        "totalPrice": 105.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "suporte-copos",
+        "thumbnail": "suporte-copos.jpeg",
+        "title": "Suporte para Copos Inox",
+        "totalPrice": 84.00,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "suporte-pratos-talheres",
+        "thumbnail": "suporte-pratos-talheres.jpeg",
+        "title": "Suporte para Prato e Talheres",
+        "totalPrice": 202.67,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "tabua-corte",
+        "thumbnail": "tabua-corte.jpg",
+        "title": "Tábuas para corte",
+        "totalPrice": 99.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "escorredor-louças",
+        "thumbnail": "escorredor-louças.jpeg",
+        "title": "Escorredor para louças",
+        "totalPrice": 149.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "conjunto-tapetes-banheiro",
+        "thumbnail": "conjunto-tapetes-banheiro.jpeg",
+        "title": "Conjunto tapetes banheiro-cozinha",
+        "totalPrice": 109.40,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "lixeira",
+        "thumbnail": "lixeira.jpeg",
+        "title": "Lixeira para pia-cozinha-banheiro",
+        "totalPrice": 65.89,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "mesa-passar",
+        "thumbnail": "mesa-passar.jpeg",
+        "title": "Mesa de passar",
+        "totalPrice": 149.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "varal-roupas",
+        "thumbnail": "varal-roupas.jpeg",
+        "title": "Varal para roupas",
+        "totalPrice": 129.00,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "relogio-parede-mesa",
+        "thumbnail": "relogio-parede-mesa.jpg",
+        "title": "Relógio de parede-mesa",
+        "totalPrice": 61.42,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "espelho parede",
+        "thumbnail": "espelho parede.jpeg",
+        "title": "Espelho de parede-mesa",
+        "totalPrice": 145.67,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "cobertor-manta",
+        "thumbnail": "cobertor-manta.jpeg",
+        "title": "Cobertores-mantas",
+        "totalPrice": 89.91,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "colcha-casal",
+        "thumbnail": "colcha-casal.jpeg",
+        "title": "Colcha de casal",
+        "totalPrice": 128.17,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "edredon-casal",
+        "thumbnail": "edredon-casal.jpeg",
+        "title": "Edredons para casal",
+        "totalPrice": 78.00,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "jogo-lencois-casal",
+        "thumbnail": "jogo-lencois-casal.jpeg",
+        "title": "Jogo de lençóis para casal",
+        "totalPrice": 53.00,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "jogo-toalha-banho",
+        "thumbnail": "jogo-toalha-banho.jpg",
+        "title": "Jogo de toalhas de banho",
+        "totalPrice": 69.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "roupao",
+        "thumbnail": "roupao.jpeg",
+        "title": "Roupão masculino-feminino",
+        "totalPrice": 109.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "servico-americano",
+        "thumbnail": "servico-americano.jpeg",
+        "title": "Serviço americano",
+        "totalPrice": 55.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "toalha-mesa",
+        "thumbnail": "toalha-mesa.jpg",
+        "title": "Toalha de mesa",
+        "totalPrice": 69.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "travesseiros",
+        "thumbnail": "travesseiros.jpg",
+        "title": "Travesseiros",
+        "totalPrice": 119.60,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "batedeira-bolo",
+        "thumbnail": "batedeira-bolo.jpeg",
+        "title": "Batedeira de bolo",
+        "totalPrice": 189.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "chaleira",
+        "thumbnail": "chaleira.jpeg",
+        "title": "Cafeteira elétrica",
+        "totalPrice": 115.99,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "espremedor-frutas",
+        "thumbnail": "espremedor-frutas.jpg",
+        "title": "Espremedor de frutas",
+        "totalPrice": 119.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "ferro-passar",
+        "thumbnail": "ferro-passar.jpg",
+        "title": "Ferro de passar",
+        "totalPrice": 124.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "fritadeira-eletrica",
+        "thumbnail": "fritadeira-eletrica.jpeg",
+        "title": "Fritadeira elétrica",
+        "totalPrice": 299.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "liquidificador",
+        "thumbnail": "liquidificador.jpg",
+        "title": "Liquidificador",
+        "totalPrice": 169.90,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "miniforno-tostador",
+        "thumbnail": "miniforno-tostador.jpg",
+        "title": "Miniforno tostador",
+        "totalPrice": 189.00,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "multiprocessador",
+        "thumbnail": "multiprocessador.jpeg",
+        "title": "Multiprocessador",
+        "totalPrice": 159.58,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "sanduicheira-grill",
+        "thumbnail": "sanduicheira-grill.jpeg",
+        "title": "Sanduicheira-grill",
+        "totalPrice": 118.27,
+        "contributors": [],
+        "soldout": false
+    },
+    {
+        "_id": "ventidalor",
+        "thumbnail": "ventidalor.jpg",
+        "title": "Ventilador",
+        "totalPrice": 119.90,
+        "contributors": [],
+        "soldout": false
+    }
+]
