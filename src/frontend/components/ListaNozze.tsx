@@ -46,6 +46,8 @@ export type Package = {
   title: string;
   totalPrice: number; // prezzo totale del pacchetto
   contributors: Contributor[];
+  pixCopiaCola: string;
+  cartaoCredito: string;
   soldout: boolean;
 };
 

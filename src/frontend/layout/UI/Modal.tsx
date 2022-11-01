@@ -402,12 +402,21 @@ class Modal extends Component<Props, State> {
                     </Paragraph>
                     <Row>
                       <img
-                        src={"assets/images/qrCode.png"}
+                        src={`assets/images/qrCode/${this.props.selectedPackage._id}.png`}
                         style={{
                           width: 235,
                           height: 235,
                           alignSelf: 'center'
                         }}
+                        alt={this.props.selectedPackage.title}
+                      />
+                    </Row>
+
+                    <Row>
+                    <Label>Pix Copia e Cola</Label>
+                    <TextArea
+                        value={this.props.selectedPackage.pixCopiaCola}
+                        contentEditable={false}
                       />
                     </Row>
 
