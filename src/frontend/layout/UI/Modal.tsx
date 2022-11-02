@@ -19,6 +19,7 @@ import LottieManager from "../../components/LottieManager";
 import { EXTRA_SMALL_DEVICES } from "../Mobile";
 import MediaQuery from "react-responsive";
 import { DESKTOP_WIDTH } from "../Layout";
+import { CreditCard } from "phosphor-react";
 
 const Parent = styled.div<{ isOpen: boolean }>`
   position: fixed;
@@ -146,6 +147,7 @@ const Button = styled.div`
   color: ${__COLORS.WHITE};
   display: flex;
   align-items: center;
+  justify-content: center;
   background: ${__COLORS.TERTRIARY};
 `;
 
@@ -307,31 +309,8 @@ class Modal extends Component<Props, State> {
 
   sendContribution() {
     // TODO: validation!!
-    if (this.props.selectedPackage !== null && this.areFieldsValid()) {
-      this.setState({ loading: true });
-      fetch(
-        `${getDomain()}/api/packages/contributor?id=${
-          this.props.selectedPackage._id
-        }`,
-        HTTP_OPTIONS(
-          PROTOCOL_METHOD.POST,
-          JSON.stringify({
-            email: this.state.email,
-            message: this.state.message,
-            contribution: this.state.contribution
-          })
-        )
-      )
-        .then(r => r.json())
-        .then(response => {
-          this.setState({ loading: false });
-          if (response.success) {
-            this.setState({ isContributionCompleted: true });
-            this.props.fetchPackages();
-          } else {
-            alert(String(response.error));
-          }
-        });
+    if (this.props.selectedPackage !== null) {
+      this.setState({ isContributionCompleted: true });
     }
   }
 
@@ -345,7 +324,7 @@ class Modal extends Component<Props, State> {
                 <Image src={"assets/images/" + this.props.selectedPackage.thumbnail} />
                 <Title>
                   {this.state.isContributionCompleted
-                    ? "Hai regalato"
+                    ? "Obrigado pelo "
                     : "Nos presenteie com "}
                   <strong>{this.props.selectedPackage.title}</strong>
                 </Title>
@@ -419,7 +398,16 @@ class Modal extends Component<Props, State> {
                         contentEditable={false}
                       />
                     </Row>
-
+                    <Row>
+                      <Button
+                        onClick={()=> window.open(this.props.selectedPackage ? this.props.selectedPackage.cartaoCredito : "", "_blank")}
+                      >
+                        <CreditCard />
+                        <b>
+                          Pague com Cartão
+                        </b>
+                      </Button>
+                    </ Row>
                     <Row>
                       <Label>Mensagem</Label>
                       <TextArea
@@ -440,17 +428,15 @@ class Modal extends Component<Props, State> {
                       Caro <strong>{this.state.email},</strong>
                     </CaroTitle>
                     <SubTitle>
-                      Grazie mille :)Al fin di poter versare l'importo di{" "}
-                      <strong>CHF {this.state.contribution}</strong>, riceverai
-                      una email di conferma a breve (in caso non dovesse
-                      arrivare, controlla nello spam o contatta Lucas).
+                      Nós agradecemos imensamente a sua contribuição! Se Possível nos comunique 
+                      sua escolha do presente para que possamos confirmar o recebimento.
                     </SubTitle>
                     <ContinueShoppingButton
                       onClick={() => {
                         this.props.close();
                       }}
                     >
-                      Grazie :)
+                      Muito Obrigado :)
                     </ContinueShoppingButton>
                   </ThanksContainer>
                 ) : (
