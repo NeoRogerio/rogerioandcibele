@@ -120,16 +120,6 @@
         "soldout": false
     },
     {
-        "_id": "bomboniere",
-        "thumbnail": "bomboniere.jpeg",
-        "title": "Bomboniere",
-        "totalPrice": 69.99,
-        "contributors": [],
-        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540569.995802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062140510Bomboniere630439AF",
-        "cartaoCredito": "https://mpago.la/1vEvcZV",
-        "soldout": false
-    },
-    {
         "_id": "conjunto-mantimento",
         "thumbnail": "conjunto-mantimento.jpeg",
         "title": "Conjunto para mantimento-condimento",
@@ -284,16 +274,6 @@
         "soldout": false
     },
     {
-        "_id": "lixeira",
-        "thumbnail": "lixeira.jpeg",
-        "title": "Lixeira para pia-cozinha-banheiro",
-        "totalPrice": 65.89,
-        "contributors": [],
-        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540565.895802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062260522LixeiraPiaCozinhaBanhe63049DAF",
-        "cartaoCredito": "https://mpago.la/27BuNds",
-        "soldout": false
-    },
-    {
         "_id": "mesa-passar",
         "thumbnail": "mesa-passar.jpeg",
         "title": "Mesa de passar",
@@ -311,16 +291,6 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406129.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062150511VaralRoupas630456CC",
         "cartaoCredito": "https://mpago.la/1YaeTqT",
-        "soldout": false
-    },
-    {
-        "_id": "relogio-parede-mesa",
-        "thumbnail": "relogio-parede-mesa.jpg",
-        "title": "Relógio de parede-mesa",
-        "totalPrice": 61.42,
-        "contributors": [],
-        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540561.425802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062210517RelogioParedeMesa6304B97E",
-        "cartaoCredito": "https://mpago.la/1KRoU3X",
         "soldout": false
     },
     {
@@ -354,36 +324,6 @@
         "soldout": false
     },
     {
-        "_id": "edredon-casal",
-        "thumbnail": "edredon-casal.jpeg",
-        "title": "Edredons para casal",
-        "totalPrice": 78.00,
-        "contributors": [],
-        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540578.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062170513EdredonsCasal630481D2",
-        "cartaoCredito": "https://mpago.la/2xV62Y8",
-        "soldout": false
-    },
-    {
-        "_id": "jogo-lencois-casal",
-        "thumbnail": "jogo-lencois-casal.jpeg",
-        "title": "Jogo de lençóis para casal",
-        "totalPrice": 53.00,
-        "contributors": [],
-        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540553.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062200516JogoLencoisCasal6304D7EA",
-        "cartaoCredito": "https://mpago.la/1F3YXGz",
-        "soldout": false
-    },
-    {
-        "_id": "jogo-toalha-banho",
-        "thumbnail": "jogo-toalha-banho.jpg",
-        "title": "Jogo de toalhas de banho",
-        "totalPrice": 69.90,
-        "contributors": [],
-        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540569.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062200516JogoToalhasBanho6304857F",
-        "cartaoCredito": "https://mpago.la/2c1Sx6H",
-        "soldout": false
-    },
-    {
         "_id": "roupao",
         "thumbnail": "roupao.jpeg",
         "title": "Roupão masculino-feminino",
@@ -391,26 +331,6 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406109.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062270523RoupaoMasculinoFeminino63042EB4",
         "cartaoCredito": "https://mpago.la/1tEWGxc",
-        "soldout": false
-    },
-    {
-        "_id": "servico-americano",
-        "thumbnail": "servico-americano.jpeg",
-        "title": "Serviço americano",
-        "totalPrice": 55.90,
-        "contributors": [],
-        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540555.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062200516ServicoAmericano6304FD46",
-        "cartaoCredito": "https://mpago.la/1zBANwT",
-        "soldout": false
-    },
-    {
-        "_id": "toalha-mesa",
-        "thumbnail": "toalha-mesa.jpg",
-        "title": "Toalha de mesa",
-        "totalPrice": 69.90,
-        "contributors": [],
-        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540569.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062140510ToalhaMesa630464C6",
-        "cartaoCredito": "https://mpago.la/2vdBRbA",
         "soldout": false
     },
     {
