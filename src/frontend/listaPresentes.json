@@ -318,10 +318,14 @@
         "thumbnail": "aparelho-jantar-cha.jpg",
         "title": "Aparelho de jantar-chá",
         "totalPrice": 199.90,
-        "contributors": [],
+        "contributors": [{
+            "message": "Pix",
+            "contribution": 199.90,
+            "email": "Ivaneide"
+        }],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406199.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062210517AparelhoJantarCha6304BC06",
         "cartaoCredito": "https://mpago.la/1FMEBFB",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "conjunto-xicaras-cafe",
