@@ -1,5 +1,24 @@
 [
     {
+        "_id": "nintendo-switch",
+        "thumbnail": "nintendo-switch.jpg",
+        "title": "Mimo para o noivo: Nintendo Switch",
+        "totalPrice": 2600.00,
+        "contributors": [],
+        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654072600.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062180514NintendoSwitch630466EE",
+        "cartaoCredito": "https://mpago.la/24tjdAk",
+        "soldout": false
+    },{
+        "_id": "monitor-gamer",
+        "thumbnail": "monitor-gamer.jpg",
+        "title": "Mimo para o noivo: Monitor Gamer",
+        "totalPrice": 2000.00,
+        "contributors": [],
+        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654072000.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062160512MonitorGamer6304212B",
+        "cartaoCredito": "https://mpago.la/2C3pXUJ",
+        "soldout": false
+    },
+    {
         "_id": "churrasqueira-fogao",
         "thumbnail": "churrasqueira-fogao.jpg",
         "title": "Churrasqueira de Fogão",
@@ -141,7 +160,7 @@
     },
     {
         "_id": "mesa-cabeceira",
-        "thumbnail": "mesa-cabeceira.jpg",
+        "thumbnail": "mesa-cabeceira.jpeg",
         "title": "Mesa de Cabeceira",
         "totalPrice": 179.00,
         "contributors": [],
