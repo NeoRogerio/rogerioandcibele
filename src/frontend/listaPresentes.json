@@ -2,20 +2,41 @@
     {
         "_id": "nintendo-switch",
         "thumbnail": "nintendo-switch.jpg",
-        "title": "Mimo para o noivo: Nintendo Switch",
+        "title": "MIMO PARA O NOIVO: Nintendo Switch",
         "totalPrice": 2600.00,
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654072600.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062180514NintendoSwitch630466EE",
         "cartaoCredito": "https://mpago.la/24tjdAk",
         "soldout": false
-    },{
+    },
+    {
         "_id": "monitor-gamer",
         "thumbnail": "monitor-gamer.jpg",
-        "title": "Mimo para o noivo: Monitor Gamer",
+        "title": "MIMO PARA O NOIVO: Monitor Gamer",
         "totalPrice": 2000.00,
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654072000.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062160512MonitorGamer6304212B",
         "cartaoCredito": "https://mpago.la/2C3pXUJ",
+        "soldout": false
+    },
+    {
+        "_id": "cadeira-gamer",
+        "thumbnail": "cadeira-gamer.jpg",
+        "title": "MIMO PARA A NOIVA: Cadeira Gamer",
+        "totalPrice": 1700.00,
+        "contributors": [],
+        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654071700.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062160512CadeiraGamer6304FFB8",
+        "cartaoCredito": "https://mpago.la/1TCMkaT",
+        "soldout": false
+    },
+    {
+        "_id": "mesa-digitalizadora",
+        "thumbnail": "mesa-digitalizadora.jpg",
+        "title": "MIMO PARA A NOIVA: Mesa Digitalizadora",
+        "totalPrice": 1700.00,
+        "contributors": [],
+        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654072600.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062220518MesaDigitalizadora6304C984",
+        "cartaoCredito": "https://mpago.la/1tMoMBt",
         "soldout": false
     },
     {
