@@ -386,10 +386,14 @@
         "thumbnail": "conjunto-copos.jpg",
         "title": "Conjunto de copos",
         "totalPrice": 102.90,
-        "contributors": [],
+        "contributors": [{
+            "message": "Mercado Pago",
+            "contribution": 102.90,
+            "email": "Paula"
+        }],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406102.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062170513ConjuntoCopos6304F292",
         "cartaoCredito": "https://mpago.la/2wCcmms",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "jarra",
