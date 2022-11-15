@@ -248,10 +248,14 @@
         "thumbnail": "forma-fundo-removivel.jpeg",
         "title": "Forma com fundo removível",
         "totalPrice": 81.99,
-        "contributors": [],
+        "contributors": [{
+            "message": "Mercado Pago",
+            "contribution": 81.99,
+            "email": "Socorro"
+        }],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540581.995802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062230519FormaFundoRemovivel6304BDE9",
         "cartaoCredito": "https://mpago.la/2KuVGjU",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "pipoqueira",
