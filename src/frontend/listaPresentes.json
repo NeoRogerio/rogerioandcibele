@@ -274,10 +274,14 @@
         "thumbnail": "conjunto-utensilios-cozinha.jpeg",
         "title": "Conjunto de utensílios para cozinha",
         "totalPrice": 154.90,
-        "contributors": [],
+        "contributors": [{
+            "message": "Pix",
+            "contribution": 154.90,
+            "email": "Jessica"
+        }],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406154.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062270523ConjuntoUtensiliosCozin6304F4F6",
         "cartaoCredito": "https://mpago.la/27iWqVo",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "conjunto-mantimento",
