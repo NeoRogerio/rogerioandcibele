@@ -46,12 +46,12 @@ export const Musica = () => {
       </CibeleRogerioMessage>
       <ButtonContainer>
         <Link
-          href="https://open.spotify.com/user/lucia.pelloni/playlist/0NuE8Uy6RBoTAQDlabL0bH"
+          href="https://open.spotify.com/playlist/3yetUciW5Y90NzetxN1vVG?si=d4fd847d9643440d"
           target="_blank"
         >
           <SpotifyButton>
             <Logo source={"spotify.png"} assetType={AssetType.LOGO} />
-            <Span>Add Song to "Los Bajic wedding's songs"</Span>
+            <Span>Adicione músicas na playlist do nosso casamento!</Span>
           </SpotifyButton>
         </Link>
       </ButtonContainer>

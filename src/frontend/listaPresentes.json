@@ -1,5 +1,45 @@
 [
     {
+        "_id": "nintendo-switch",
+        "thumbnail": "nintendo-switch.jpg",
+        "title": "MIMO PARA O NOIVO: Nintendo Switch",
+        "totalPrice": 2600.00,
+        "contributors": [],
+        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654072600.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062180514NintendoSwitch630466EE",
+        "cartaoCredito": "https://mpago.la/24tjdAk",
+        "soldout": false
+    },
+    {
+        "_id": "monitor-gamer",
+        "thumbnail": "monitor-gamer.jpg",
+        "title": "MIMO PARA O NOIVO: Monitor Gamer",
+        "totalPrice": 2000.00,
+        "contributors": [],
+        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654072000.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062160512MonitorGamer6304212B",
+        "cartaoCredito": "https://mpago.la/2C3pXUJ",
+        "soldout": false
+    },
+    {
+        "_id": "cadeira-gamer",
+        "thumbnail": "cadeira-gamer.jpg",
+        "title": "MIMO PARA A NOIVA: Cadeira Gamer",
+        "totalPrice": 1700.00,
+        "contributors": [],
+        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654071700.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062160512CadeiraGamer6304FFB8",
+        "cartaoCredito": "https://mpago.la/1TCMkaT",
+        "soldout": false
+    },
+    {
+        "_id": "mesa-digitalizadora",
+        "thumbnail": "mesa-digitalizadora.jpg",
+        "title": "MIMO PARA A NOIVA: Mesa Digitalizadora",
+        "totalPrice": 2600.00,
+        "contributors": [],
+        "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX01110155270729652040000530398654072600.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062220518MesaDigitalizadora6304C984",
+        "cartaoCredito": "https://mpago.la/1tMoMBt",
+        "soldout": false
+    },
+    {
         "_id": "churrasqueira-fogao",
         "thumbnail": "churrasqueira-fogao.jpg",
         "title": "Churrasqueira de Fogão",
@@ -141,7 +181,7 @@
     },
     {
         "_id": "mesa-cabeceira",
-        "thumbnail": "mesa-cabeceira.jpg",
+        "thumbnail": "mesa-cabeceira.jpeg",
         "title": "Mesa de Cabeceira",
         "totalPrice": 179.00,
         "contributors": [],
@@ -154,10 +194,14 @@
         "thumbnail": "microondas.jpg",
         "title": "Microondas",
         "totalPrice": 249.99,
-        "contributors": [],
+        "contributors": [{
+            "message": "Pix",
+            "contribution": 249.99,
+            "email": "Gabrielle"
+        }],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406249.995802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062140510Microondas6304FE42",
         "cartaoCredito": "https://mpago.la/1JS6gks",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "cafeteira-italiana",
@@ -204,10 +248,14 @@
         "thumbnail": "forma-fundo-removivel.jpeg",
         "title": "Forma com fundo removível",
         "totalPrice": 81.99,
-        "contributors": [],
+        "contributors": [{
+            "message": "Mercado Pago",
+            "contribution": 81.99,
+            "email": "Socorro"
+        }],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540581.995802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062230519FormaFundoRemovivel6304BDE9",
         "cartaoCredito": "https://mpago.la/2KuVGjU",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "pipoqueira",
@@ -346,10 +394,14 @@
         "thumbnail": "conjunto-copos.jpg",
         "title": "Conjunto de copos",
         "totalPrice": 102.90,
-        "contributors": [],
+        "contributors": [{
+            "message": "Mercado Pago",
+            "contribution": 102.90,
+            "email": "Paula"
+        }],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406102.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062170513ConjuntoCopos6304F292",
         "cartaoCredito": "https://mpago.la/2wCcmms",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "jarra",
