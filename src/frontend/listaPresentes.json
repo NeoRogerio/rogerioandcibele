@@ -452,10 +452,14 @@
         "thumbnail": "suporte-copos.jpeg",
         "title": "Suporte para Copos Inox",
         "totalPrice": 84.00,
-        "contributors": [],
+        "contributors": [{
+            "message": "Pix",
+            "contribution": 84.00,
+            "email": "Marcielen"
+        }],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540584.005802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062200516SuporteCoposInox6304EF74",
         "cartaoCredito": "https://mpago.la/1kC17a6",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "suporte-pratos-talheres",
