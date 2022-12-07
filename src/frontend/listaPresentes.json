@@ -435,7 +435,7 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540589.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062120508BuleCafe6304AA9D",
         "cartaoCredito": "https://mpago.la/1Kfkfn5",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "bule-garrafa-termica",
