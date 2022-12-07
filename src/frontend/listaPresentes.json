@@ -275,7 +275,7 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540589.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062170513CarrinhoFeira6304251F",
         "cartaoCredito": "https://mpago.la/319w48R",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "fruteira-rodinhas",
@@ -353,7 +353,7 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540590.405802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062190515ConjuntoTijelas6304BE82",
         "cartaoCredito": "https://mpago.la/1cBZJco",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "saladeira",
@@ -415,7 +415,7 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540593.025802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062090505Jarra6304CEDA",
         "cartaoCredito": "https://mpago.la/2QyuzoL",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "suqueira",
@@ -539,7 +539,7 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX011101552707296520400005303986540589.915802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062200516CobertoresMantas63048BBA",
         "cartaoCredito": "https://mpago.la/2igwi1D",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "colcha-casal",
