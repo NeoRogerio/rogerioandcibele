@@ -559,7 +559,7 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406109.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062270523RoupaoMasculinoFeminino63042EB4",
         "cartaoCredito": "https://mpago.la/1tEWGxc",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "travesseiros",
