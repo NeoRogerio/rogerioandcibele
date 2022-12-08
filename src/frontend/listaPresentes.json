@@ -445,7 +445,7 @@
         "contributors": [],
         "pixCopiaCola": "00020126330014BR.GOV.BCB.PIX0111015527072965204000053039865406105.905802BR5925Rogerio Rocha da Costa Fi6009SAO PAULO61080540900062180514GarrafaTermica6304E48A",
         "cartaoCredito": "https://mpago.la/1j6DvZ2",
-        "soldout": false
+        "soldout": true
     },
     {
         "_id": "suporte-copos",
